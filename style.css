@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, tomato, rgb(245, 60, 28));
+    color: white;
+}
+
+#course-row {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+
+#credit-row {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+#grade-row {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+
+.calculator-box {
+ width: 50%;
+ height: auto;
+ border: 4px solid #1D566E;
+ margin: 100px auto;
+ /*text-align: center;*/   
+}
+h1 {
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid #1D566E;
+    background-color: #1D566E;
+}
+
+h1:hover {
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid #1D566E;
+    /*background-color: #f00000;*/
+    color: #fff;
+}
+
+p {
+    padding: 20px;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+#course-wrapper, form {
+    color: black;
+    padding-left: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+select {
+    padding: 15px;
+    margin: none;
+    border-radius: 7.5px;
+    width: 20%;
+    /*height: 30px;*/
+}
+
+button {
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+   /* margin-right: 10px;*/
+    border-width: 3px;
+    border-radius: 10%;
+    border-style: solid;
+}
+
+button:hover {
+    width: 15%;
+    height: 40px;
+    padding: 1px;
+    margin: 5px auto;
+    border-width: 3px;
+    border-radius: 10%;
+    border-style: solid;
+    color: white;
+    background-color: #1D566E;
+    border-color: #1D566E;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lastp {
+    border: 1px solid #1D566E;
+    background-color: #1D566E;
+}
+
+.lastp p {
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.lastp p:hover {
+    background-color: #1D566E;
+    color: black;
+}
+/*on screen that are 1200px or less, set the width to 70%*/
+@media screen and (max-width: 1200px) {
+    .calculator-box {
+        width: 70%;
+   }
+}
+
+/*on screens that are 950% or less, set the width to 75%*/
+@media screen and (max-width: 950px) {
+    .calculator-box {
+        width: 75%;
+    }
+}
+
+/*on screen that are 600px or less, set the width to 90%*/
+@media screen and (max-width: 600px) {
+    .calculator-box {
+        width: 75%;
+    }
+}
